@@ -1,0 +1,38 @@
+body{
+  background-image: url('bg2.jpg');
+  color:white;
+}
+
+#score{
+  color : rgb(0, 230, 0);
+}
+
+table tr td button{
+  width:105px;
+  height:105px;
+  background-color: rgb(242, 242, 242);
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#alert{
+  width:350px;
+  height:30px;
+  padding: 0px;
+}
+
+button h1{
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+#playAgainbtn{
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: none;
+  font-family: fantasy;
+  margin-top: 12px;
+  color:white;
+  padding: 14px;
+}

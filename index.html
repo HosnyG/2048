@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>2048</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <div class="container" align="center">
+          <h1 class="display-2">2048</h1>
+          <div class="card text-white bg-dark mb-3" style="max-width: 10rem;max-height:3.5rem">
+            <div class="card-body" style='padding:3px;'>Score: <span id="score">0</span></div></div>
+          <div id="alert" class="alert alert-success" role="alert">Join the numbers and get to the 2048 tile!</div>
+           <button id="playAgainbtn" onclick="window.location.reload(false);" type="button">play Again!</button>
+      </div>
+      <table class="tbl" align="center">
+        <tr>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+          <td><button type="button"><h1> </h1></button></td>
+        </tr>
+      </table>
+
+      <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
